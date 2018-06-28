@@ -43,6 +43,9 @@ function content()
     
     /* -- Config -- */
     
+    document.getElementsByTagName("iframe")[0].remove();
+    document.getElementsByTagName("iframe")[0].remove();
+    
     var header_h1 = document.createElement("h1");
     header_h1.innerHTML = header_titre;
     header.append(header_h1);
