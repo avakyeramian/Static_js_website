@@ -13,8 +13,12 @@ header {
     padding: 1em 1em 1em 1em;
 }
 
-header nav a
-{
+header nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header nav a {
 	text-transform: uppercase;
 	color:deepskyblue;
     text-decoration: none;
@@ -23,9 +27,10 @@ header nav a
 
 main {
 	flex-grow:1;
+    margin: 1em 1em 1em 1em;
 }
 
-main audio{
+main audio {
     text-align: center;
 }
 
