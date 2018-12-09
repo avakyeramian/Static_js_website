@@ -16,6 +16,7 @@ header {
 header nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 header nav a {
@@ -40,8 +41,11 @@ footer {
 }
 
 footer ul {
+    padding: 0em 0em 0em 0em;
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer ul li a {
